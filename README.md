@@ -6,8 +6,8 @@ This repository showcases a third party integration with LibreDeck Macro Panel, 
 
 Third party scripts can also change the background image of the panel on demand.
 
+<img width="1024" height="600" alt="LibreDeck_Client_gHrVXlKdhe" src="https://github.com/user-attachments/assets/41985116-36fb-4ca2-8fbb-6ec96061e19e" />
 
-<img width="2048" height="1200" alt="LibreDeck_Client_OvGeHlfdKK" src="https://github.com/user-attachments/assets/982ff49d-03b6-418a-8b86-84a44564f374" />
 
 
 ### Requirements
@@ -56,3 +56,7 @@ LD_ButtonImage_Render(outDir "\date.png", {style:"dark", title:"" A_DDDD "", val
 receiver.setVar("incomingButtonChange", "{""imagePathOrName"": """ escapeBackSlashes(A_ScriptDir) "\\res\\img\\date.png"", ""buttonId"": 14, ""folderName"": ""MinimalPlugin"", ""page"": 0}", 0)
 receiver.runlabel("setButtonIconRemote", 0)
 ```
+
+### Gif Example
+<img width="2048" height="1200" alt="LibreDeck_Client_OvGeHlfdKK" src="https://github.com/user-attachments/assets/982ff49d-03b6-418a-8b86-84a44564f374" />
+
